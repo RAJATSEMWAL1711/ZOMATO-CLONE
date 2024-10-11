@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pavanam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Playwrite+DE+Grund:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    /* justify-content:center; */
+    gap: 40px;
+    margin-left: 80px;
+}
+.one{
+    font-size: 20px;
+    margin-right: 80px;
+    color: #696969;
+    font-family: "Oswald", sans-serif;
+    text-decoration: none;
+    margin-left: 80px;
+}
+.zomaa{
+    background-image: url(zomaa.jpg);
+    background-size: cover;
+    width: 132px;
+    height: 28px;
+    margin-left:0px;
+    margin-top: 10px;
+}
+.search_container{
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    height: 3.4rem;
+    width: 40%;
+    border-radius: 10px;
+    margin-left: 0px;
+    box-shadow: 2px 2px 5px rgb(226, 224, 224);
+}
+.search_container .left_search , .search_container .right_search{
+    display: inline-flex;
+    padding: 0 1rem;
+}
+.search_container .left_search {
+    width: 30%;
+    border-right:2px solid rgb(214, 198, 198);
+}
+.search_container .right_search {
+    width: 70%;
+}
+.search_container input{
+    border: 0;
+    outline: none;
+    font-size: 1rem;
+    background: transparent;
+    color: rgb(212, 207, 207);
+    width: 100%;
+    margin-left: 6px;
+}
+.search_container .left_search i{
+    color: rgb(240,125,125);
+    font-size: 20px;
+}
+.search_container .right_search i{
+    color:grey;
+    font-size: 20px;
+}
+p{
+    margin-left: 80px;
+}
+.rwo{
+    color:#696969;
+    text-decoration: none;
+}
+.rwo:hover{
+    color: red;
+    text-decoration: none;
+}
+.tags{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+i{
+    font-size: 25px;
+    color: rgb(162, 54, 54);
+}
+.tg{
+    display: flex;
+    margin-left: 60px;
+    gap: 20px;
+}
+.filter{
+    height: 40px;
+    width: 80px;
+    border: 2px solid #f0ecec;
+    border-radius: 7px;
+    color: #9c9c9c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.filter i{
+    color: #ddd6d6;
+    font-size: 16px;
+}
+.filter:hover{
+    background-color: #e7e3e33b;
+}
+.new{
+    margin-top: 50px;
+    height: 480px;
+    background-color: #f0efef;
+}
+.overflow1{
+    display: flex;
+    align-items: center;
+    overflow-x:auto;
+    height: 250px;
+    /* over */
+    gap: 60px;
+    margin-left: 140px;
+    margin-right: 150px;
+}
+.a{
+    height: 150px;
+    min-width: 150px;
+    border-radius: 50%;
+}
+.neww{
+    height: 300px;
+    background-color: #ffffff;
+}
+.overflow2{
+    display: flex;
+    align-items: center;
+    overflow-x:auto;
+    height: 300px;
+    /* over */
+    gap: 60px;
+    margin-left: 140px;
+    margin-right: 150px;
+}
+.box{
+    display: flex;
+    margin-left: 150px;
+    gap: 40px;
+}
+.box1{
+    height: 350px;
+    width: 350px;
+    border: 2px solid transparent;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    
+}
+.box1:hover{
+    box-shadow: 2px 2px 10px rgb(89, 88, 88);
+}
+.image{
+    height: 250px;
+    width: 330px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+    background-size: cover;
+}
+.star{
+    height: 30px;
+    width: 45px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    text-align:center ;
+    padding: 3px;
+}
+.star i{
+    color: white;
+    font-size: 10px;
+}
+footer{
+    margin-top: 60px;
+    background-color: #f8f8f8;
+    height: 560px;
+}
+.foot{
+    margin-left: 70px;
+}
+.zomaaa{
+    background-image: url(zomaa.jpg);
+    background-size: cover;
+    width: 132px;
+    height: 28px;
+}
+
+
+.logos i{
+    color: #000000;
+    gap: 10px;
+    font-size: 23px;
+}
+.ftt{
+    display: flex;
+    gap: 90px;
+    margin-top: 40px;
+}

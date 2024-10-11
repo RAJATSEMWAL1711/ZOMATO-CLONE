@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap');
+
+*{
+    margin: 0px;
+}
+header{
+    height: 75px;
+    background-color: rgb(235, 238, 237);
+}
+.zomato{
+    height: 30px;
+    width: 150px;
+    background-image: url(zomaa.jpg);
+    background-size: cover;
+    display: inline;
+}
+a{
+    font-size: 19px;
+}
+a:hover{
+    color: rgb(219, 23, 23);
+}
+
